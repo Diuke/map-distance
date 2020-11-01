@@ -115,7 +115,7 @@ let response_dom = document.getElementById("response");
 //p2_lon.innerText = p2["lon"];
 
 function calculateDistance(){
-    let url = "http://juanpduque.pythonanywhere.com/calculator/sphereDistance";
+    let url = "https://juanpduque.pythonanywhere.com/calculator/sphereDistance";
     //console.log(p1, p2);
     let body = {
         "p1": {"lat": app.lat1, "lon": app.lon1, "h": 0},
